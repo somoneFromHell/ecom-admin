@@ -1,13 +1,10 @@
-import React, { useEffect, useState } from "react";
-import "./App.css";
-
-import Login from "./Auth/login";
+import Login from "./pages/Authentication/Login";
 
 const App = () => {
   const element = (
-    <div>
-      <Login></Login>
-    </div>
+  <>
+  <Login></Login>
+  </>
   );
 
   return element;
